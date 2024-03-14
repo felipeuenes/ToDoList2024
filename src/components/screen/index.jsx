@@ -1,3 +1,4 @@
+import { Tarefa } from "../Tarefa"
 import "./style.css"
 
 
@@ -13,6 +14,11 @@ export function Screen(){
                 </section>
                 <section>
                     <input type="text" placeholder="Pesquise..." />
+                </section>
+                <section className="atividades">
+                    <Tarefa/>
+                    <Tarefa/>
+                    <Tarefa/>
                 </section>
 
             </div>

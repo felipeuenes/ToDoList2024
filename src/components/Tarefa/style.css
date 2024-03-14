@@ -1,0 +1,23 @@
+.tarefa{
+    display: flex;
+    padding: 1.6rem;
+    gap: 1.6rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.nomeTarefa{
+    display: flex;
+    flex-direction: column;
+}
+
+.dataTarefa{
+    font-size: 1.4rem;
+    color: rgb(99, 99, 99);
+}
+
+.statusTarefa{
+    width: 2.0rem;
+    height: 1.5rem;
+    background-color: green;
+    border-radius: 1.6rem;
+}
