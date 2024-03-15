@@ -1,9 +1,11 @@
 .tarefa{
+    margin-top: 1.0rem;
     display: flex;
-    padding: 1.6rem;
-    gap: 1.6rem;
+    padding: .6rem;
+    /* gap: 1.6rem; */
     justify-content: space-around;
     align-items: center;
+    border: 0.02rem solid;
 }
 .nomeTarefa{
     display: flex;

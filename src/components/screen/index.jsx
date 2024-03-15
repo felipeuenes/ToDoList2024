@@ -12,7 +12,7 @@ export function Screen(){
                 <h1>ToDoList</h1>
 
                 </section>
-                <section>
+                <section className="barraPesquisa">
                     <input type="text" placeholder="Pesquise..." />
                 </section>
                 <section className="atividades">
