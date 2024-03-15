@@ -12,12 +12,20 @@
     padding: 2.4rem;
     border-radius: 1.6rem;
 }
+.fullScreen h1{
+    text-align: center;
+    padding-bottom: 1.6rem;
+}
 .barraPesquisa input{
     padding: .8rem;
     border-radius: 2.6rem;
-    border: 0.02rem solid;
+    border: none;
+    background-color: #dddddd;
     width: 100%;
     height: 3.0rem;
+}
+.barraPesquisa input:focus{
+    outline: none;
 }
 
 .atividades{
